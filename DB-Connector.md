@@ -1,6 +1,3 @@
----
-stoplight-id: 9v77usjg8xnh7
----
 
 # DB Connector
 DB V2 is a component used with the `code` attribute of the request to retrieve the client record in a database (MySQL, SQL server...)
@@ -14,23 +11,23 @@ you don't need to worry about downloading plug-ins and external drivers, it is r
 3. Select the operation.
 
 4. Authenticate an account in the database.
-![Figure 1. User and password.png](https://stoplight.io/api/v1/projects/cHJqOjE0MDAyOA/images/SsNxk9jIl58 "Figure 1. Authenticate")
+![Figure 3  User and password](https://user-images.githubusercontent.com/61173495/174700074-146318f4-75ba-49c0-8cce-7fcd6e25f87c.png "Figure 1. Authenticate")
 
 5. Select the URL.
-![Figure 2. URL.png](https://stoplight.io/api/v1/projects/cHJqOjE0MDAyOA/images/WKRdPFvuyaY "Figure 2. URL")
+![Figure 4  URL](https://user-images.githubusercontent.com/61173495/174700119-c00d5c38-5091-4d80-b18a-961e68f19cac.png "Figure 2. URL")
 
 
 6. Set instruction.
-![Figure 3. Query table.png](https://stoplight.io/api/v1/projects/cHJqOjE0MDAyOA/images/Ec0NaStgyik "Figure 3. Query table")
+![Figure 5  Query table](https://user-images.githubusercontent.com/61173495/174700145-824100b4-6a5f-46e7-b39a-a5ea4fe9c742.png "Figure 3. Query table")
 
 7. Click Play.
 
 8. Connect the trigger to DB v2.
-![Figure 4, Connector pipeline trigger.png](https://stoplight.io/api/v1/projects/cHJqOjE0MDAyOA/images/jcGGtlpMK7Y "Figure 4. Connect the trigger")
+![Figure 7, Connector pipeline trigger](https://user-images.githubusercontent.com/61173495/174700238-0c378dfc-bb04-453d-af81-d511a0ddbeba.png "Figure 4. Connect the trigger")
 
 
 9. Execute the pipeline.
-![Figure 5. Response.png](https://stoplight.io/api/v1/projects/cHJqOjE0MDAyOA/images/KEHqIVjh7Tw "Figure 5. Response")
+![Figure 6  Response](https://user-images.githubusercontent.com/61173495/174700268-b0a6ce11-7451-4409-9cb3-37ed0fbbf4ad.png "Figure 5. Response")
 
 
 
@@ -62,7 +59,7 @@ Double braces also serve to check if the code field returned an empty string if 
 After the configuration is done let's test the logic one more time, so that the database returns the record linked to the `code` that was passed as a parameter instead of a list with all the data.
 See the flow below for a better understanding.
 
-![db_connector.png](https://stoplight.io/api/v1/projects/cHJqOjE0MDAyOA/images/FRGEtzPU0Ko "Figure 6. Flow")
+![db_connector](https://user-images.githubusercontent.com/61173495/174700733-73f8d171-2358-4377-8788-1becdf9737dc.png "Figure 6. Flow")
 
 
 > #### NOTE:
