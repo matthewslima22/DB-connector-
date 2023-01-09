@@ -22,8 +22,10 @@ you don't need to worry about downloading plug-ins and external drivers, it is r
 
 7. Click Play.
 
+
 8. Connect the trigger to DB v2.
 ![Figure 7, Connector pipeline trigger](https://user-images.githubusercontent.com/61173495/174700238-0c378dfc-bb04-453d-af81-d511a0ddbeba.png "Figure 4. Connect the trigger")
+
 
 
 9. Execute the pipeline.
